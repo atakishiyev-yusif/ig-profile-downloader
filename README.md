@@ -1,6 +1,8 @@
 # ig-profile-downloader
 Live demo: https://ig-profile-downloader.netlify.app
 
+![](screenshot.png)
+
 To install dependencies:
 
 ```bash
