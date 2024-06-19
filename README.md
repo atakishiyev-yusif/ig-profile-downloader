@@ -1,4 +1,5 @@
 # ig-profile-downloader
+Live demo: https://ig-profile-downloader.netlify.app
 
 To install dependencies:
 
@@ -13,4 +14,3 @@ bun run ./assets/js/index.js
 ```
 
 This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
-# ig-profile-downloader
