@@ -1,0 +1,226 @@
+#hero .hero-list-checks {
+  margin: 2rem 0;
+}
+
+#download-profile-page {
+  margin-top: 2rem;
+  height: 100vh;
+}
+
+#download-profile-page .overlay {
+  opacity: 0.2;
+}
+
+#download-profile-page h1 {
+  font-size: 2rem;
+  opacity: 0.6;
+}
+
+#download-profile-page .form {
+  height: 50vh;
+  display: flex;
+  margin-top: -11vh;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.5s;
+}
+
+#download-profile-page .form .search-input--button {
+  width: 70%;
+}
+
+#download-profile-page .form .input {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(
+    to left,
+    rgba(116, 58, 213, 0.5),
+    rgba(178, 84, 255, 0.5)
+  );
+  height: 3.5rem;
+  width: 100%;
+  padding: 10px;
+  background: light-dark(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(8px);
+}
+
+#download-profile-page .form .input:hover,
+#download-profile-page .form .input:focus {
+  border-image-source: linear-gradient(
+    to left,
+    rgba(116, 58, 213, 1),
+    rgba(178, 84, 255, 1)
+  );
+}
+
+#download-profile-page .form .search-url-button {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+#download-profile-page #view-and-download {
+  margin: 2rem auto 25vh;
+}
+
+#download-profile-page .instagram-profile-viewer {
+  background: #f5f7f8;
+  color: black;
+  width: 70%;
+  margin: 50vh auto 0;
+  border-radius: 24px;
+  padding: 0 2rem 2rem;
+}
+
+#download-profile-page .instagram-profile-viewer .profile-image {
+  width: 6rem;
+  height: 6rem;
+  flex-shrink: 0;
+  border-radius: 99999px;
+  overflow: hidden;
+  background: gray;
+}
+
+#download-profile-page .instagram-profile-viewer h2 {
+  font-size: 2.4rem;
+}
+
+#download-profile-page .instagram-profile-viewer .username {
+  opacity: 0.9;
+  padding: 0.5rem 0 1rem;
+}
+
+#download-profile-page .instagram-profile-viewer .fullname-bio {
+  margin-top: 0.5rem;
+}
+
+#download-profile-page .instagram-profile-viewer .follow--following--followers {
+  font-size: 1.4rem;
+}
+
+#download-profile-page
+  .instagram-profile-viewer
+  .follow--following--followers
+  .label {
+  font-size: 14px;
+}
+
+#download-profile-page .warning-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  max-width: 44ch;
+  background-color: rgba(173, 139, 27, 0.1);
+  border: 1px solid #feec6f;
+  color: #c9971c;
+  border-radius: 10px;
+  line-height: 1.3;
+}
+
+#download-profile-page #view-and-download .actions {
+  background: #f5f7f8;
+  color: white;
+  width: 70%;
+  margin: 24px auto;
+  border-radius: 24px;
+  overflow: hidden;
+  height: 3.5rem;
+}
+
+#download-profile-page #view-and-download .actions a {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: inherit;
+  padding: 1rem;
+}
+
+#download-profile-page #view-and-download .actions a:hover {
+  opacity: 0.8;
+}
+
+#download-profile-page #view-and-download .actions a:nth-of-type(1) {
+  background: #40404d;
+  flex: 1;
+}
+
+#download-profile-page #view-and-download .actions a:nth-of-type(2) {
+  background: #4f2d87;
+  flex: 1;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+footer #my-website-link {
+  opacity: 0.7;
+  text-decoration: underline;
+  transition: all ease 0.5s;
+}
+
+footer #my-website-link:hover {
+  padding: 0.2rem 0.4rem;
+  transition: all ease 0.5s;
+  background-color: #731e64;
+  opacity: 1;
+  border-radius: 9px;
+  color: white;
+}
+
+footer .social-link {
+  opacity: 0.6;
+  transition: all ease 0.5s;
+}
+
+footer .social-link:hover {
+  opacity: 1;
+  transition: all ease 0.5s;
+  rotate: 6deg;
+  scale: 1.2;
+}
+
+@media (max-width: 1024px) {
+  #download-profile-page .form .search-input--button {
+    width: 100%;
+  }
+
+  #download-profile-page .instagram-profile-viewer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  #download-profile-page .instagram-profile-viewer {
+    width: 100%;
+  }
+
+  #download-profile-page .instagram-profile-viewer .bio {
+    font-size: 12px;
+  }
+  #download-profile-page
+    .instagram-profile-viewer
+    .follow--following--followers {
+    gap: 12px;
+    font-size: 15px;
+  }
+
+  #download-profile-page
+    .instagram-profile-viewer
+    .follow--following--followers
+    .label {
+    font-size: 12px;
+  }
+
+  #download-profile-page .instagram-profile-viewer .profile-image--followers {
+    gap: 16px;
+  }
+
+  #download-profile-page .instagram-profile-viewer .profile-image {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #download-profile-page #view-and-download .actions {
+    width: 80%;
+  }
+}

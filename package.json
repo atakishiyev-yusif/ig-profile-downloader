@@ -1,0 +1,11 @@
+{
+  "name": "ig-profile-downloader",
+  "module": "./assets/js/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
